@@ -45,13 +45,18 @@ header .logo span{
 }
 
 header .navbar a{
-    font-size: 1.7rem;
     padding: 0 1.5rem;
+    font-size: 1.7rem;
+    color: black;
     color: #0e1111;
-    background-color: rgb(212, 225, 213);
-    border-radius: 2rem;
+    border-radius: 10px;
 }
 
+header .navbar a:hover{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: rgb(212, 225, 213);
+}
 
 
 header #toggler{
