@@ -468,3 +468,11 @@ header .fa-bars{
     }
 
 }
+ /* addding hover effect in navigation logo */
+
+ .logo:hover{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: rgb(212, 225, 213);
+    border-radius: 10px;
+ }
