@@ -6,7 +6,7 @@
     margin: 0;;
     padding: 0;
     box-sizing: border-box;
-    font-family: cursive;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: none;
     text-decoration: none;
     text-transform: capitalize;
@@ -35,9 +35,9 @@ header{
 }
 
 header .logo{
-    font-size: 3rem;
+    font-size: 2rem;
     color: black;
-    font-weight: bolder;
+    font-weight: 400;
 }
 
 header .logo span{
@@ -200,11 +200,11 @@ header .fa-bars{
 }
 
 .products .box-container .box .image img{
-    height: 25rem;
+    height:25rem;
 }
 
 .products .box-container .box:hover .image img{
-    transform: scale(1.07);
+    transform: scale(1.1);
 }
 
 .products .box-container .box:hover .image .icons{
