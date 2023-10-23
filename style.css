@@ -175,18 +175,14 @@ header .fa-bars{
     display: flex;
     flex-wrap: wrap;
     gap:1.5rem;
-    padding: 150px;
+    padding: 80px;
 }
-
-
 
 .products .box-container .box{
     flex:1 1 30rem;
-    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
     border-radius: .5rem;
     border:.1rem solid rgba(0,0,0,.1);
-    position: relative;    
-    padding-bottom: 10px;
+    position: relative;
 }
 
 .products .box-container .box .image{
@@ -204,19 +200,24 @@ header .fa-bars{
     transform: scale(1.1);
 }
 
+.products .box-container .box .image .icons{
+    position: absolute;
+    bottom:-7rem; 
+    left:0; 
+    right:0;
+    display: flex;
+}
+
 .products .box-container .box:hover .image .icons{
     bottom:0;
 }
 
 .products .box-container .box .image .icons a{
-    height: 5rem;
     line-height: 5rem;
     font-size: 2rem;
     width:50%;
     background:var(--pink);
     color:#fff;
-    padding: 20px;
-    border-radius: 10px;
 }
 
 .products .box-container .box .image .icons .cart-btn{
@@ -226,8 +227,7 @@ header .fa-bars{
 }
 
 .products .box-container .box .image .icons a:hover{
-    background:rgb(212, 225, 213);
-    color: black;
+    background:#333;
 }
 
 .products .box-container .box .content{
@@ -242,7 +242,6 @@ header .fa-bars{
 
 .products .box-container .box .content .price{
     font-size: 2rem;
-    color:var(--pink);
     font-weight: bolder;
     padding-top: 1rem;
 }
@@ -253,6 +252,7 @@ header .fa-bars{
     font-weight: lighter;
     text-decoration: line-through;
 }
+
 
 .heading{
     text-align: center;
