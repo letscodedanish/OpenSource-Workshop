@@ -175,7 +175,7 @@ header .fa-bars{
     display: flex;
     flex-wrap: wrap;
     gap:1.5rem;
-    padding: 80px;
+    padding: 150px;
 }
 
 .products .box-container .box{
